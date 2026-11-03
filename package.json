@@ -1,0 +1,21 @@
+{
+  "name": "playwright_perficient",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript framework for the Automation Exercise e-commerce capstone",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:report": "node scripts/run-tests-and-report.cjs",
+    "test:update-snapshots": "playwright test --project=chromium --update-snapshots",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
